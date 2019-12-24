@@ -6,3 +6,7 @@
 4) factorgraph.py  从github里找到的LBP的代码，可以控制最大迭代次数以及处理非对称的factor graph，在实验过程中我们多次调用这一代码。
 5) MRF.py  将整个local feature function读入进MRF中，并调用LBP来预测所有paper每个domain的概率，最终可以求得MRF的正确率。
 6) get_graph_factor.cpp  在C++中实现的MRF关于训练集的学习方法，其中包括初始local feature function以及每次迭代时的变化，最终输出这张表到table-new.txt再让MRF.py来进行调用。
+
+test
+
+sese
